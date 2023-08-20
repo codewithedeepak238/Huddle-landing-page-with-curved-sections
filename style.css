@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100&family=Bellota+Text:wght@300;400;700&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Mulish:wght@200;300;400;500;600;700;800;900;1000&family=Open+Sans:wght@300;400;500;600;700;800&family=Outfit:wght@200;300;400;500;600;700;800;900&family=Poltawski+Nowy:wght@400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600&family=Roboto:wght@100;300;400;500;700;900&family=Rubik:wght@400;500;700&display=swap');
+html{
+    font-size: 16px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    appearance: none;
+    outline: 0;
+    border: none;
+}
+body{
+    font-size: 1rem;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
+}
+h1{
+    font-size: 2.5rem;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+}
+h2{
+    font-size: 2.2rem;
+    font-weight: 800;
+    font-family: 'Poppins', sans-serif;
+}
+h3{
+    font-size: 4rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+p{
+    font-size: 1rem;
+}
+.container{
+
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3rem 10rem 0 10rem;    
+}
+header .logo{
+    display: flex;
+    align-items: center;
+}
+header .logo img{
+    width: 2.5rem;
+}
+header .logo h2{
+    margin-left: 0.5rem;
+}
+header .free-btn{
+    border: 1px solid hsl(321, 100%, 78%);
+    border-radius: 22px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 0px 2px 1px hsl(321, 100%, 78%);
+}
+.free-btn a{
+    font-size: 0.9rem;
+    color: hsl(322, 100%, 66%);
+    padding: 0.3rem 1rem;
+}
+main{
+    margin-top: 8rem;
+    text-align: center;
+    padding: 0 5rem;
+}
+
+main .main-info p{
+    margin-top: 1rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+}
+.btn{
+    border-radius: 30px;
+    display: inline-block;
+    justify-content: center;
+    background: hsl(322, 100%, 66%);
+    margin-top: 2rem;
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+}
+.btn a{
+    color: white;
+    font-weight: 600;
+    padding: 1rem 4rem;
+    display: block;
+}
+main .design{
+    margin-top: 5rem;
+}
+main .design img{
+    width: 70%;
+}
+main .customer-info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 4rem;
+}
+main .customer-info .icon{
+    text-align: justify;
+    width: 2.3rem;
+}
+main .customer-info img{
+    width: 100%;
+}
+main .customer-info p{
+    color: rgba(0,0,0,0.5);
+    font-size: 1.1rem;
+}
+.section-grow, .section-user{
+    background: rgb(229, 249, 255, 0.6);
+    width: 100%;
+    padding: 13rem 0;
+    position: relative;
+}
+.info-section {
+    display: flex;
+    align-items: center;
+    padding: 0rem 13% 0 13%;
+}
+.info-section img{
+    width: 38%;
+}
+.info-section p{
+    margin-top: 1rem;
+    line-height: 1.3rem;
+    font-weight: 500;
+}
+.info-section .grow-info, .user-info{
+    padding-right: 25%;
+}
+
+.section-flow{
+    position: relative;
+    margin: 5rem 0;
+}
+.info-section .flow-info{
+    padding-left: 25%;
+}
+.section-signup{
+    padding: 13rem 0;
+    position: relative;
+    width: 100%;
+}
+.signup-info{
+    text-align: center;
+}
+.footer{
+    background: #00252e;
+    width: 100%;
+    position: relative;
+}
+.svg1, .svg2{
+    position: absolute;
+    width: 100%;
+}
+.svg1{
+    top: 0;
+}
+.svg2{
+    bottom: 0;
+}
+.footer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 5rem 13% 5rem 13%;
+    color: #ffffff;
+    gap: 20%;
+}
+.footer .about{
+    margin-right: 15%;
+}
+.footer .logo{
+    display: flex;
+    align-items: center;
+}
+.footer .logo img{
+    width: 3rem;
+}
+.footer .logo h2{
+    margin-left: 0.5rem;
+}
+.footer p{
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+.footer h2{
+    margin-bottom: 1rem;
+}
+.contact .phone, .email{
+    display: flex;
+    gap: 1rem;
+    margin: 1.5rem 0;
+}
+.social-icon{
+    margin-top: 5rem;
+    display: flex;
+    gap: 1.5rem;
+}
+.social-icon i{
+    font-size: 2rem;
+}
+.newsletter .news-info{
+    padding-right: 24%;
+}
+.newsletter .subscribe{
+    margin-top: 2rem;
+    display: flex;
+}
+.subscribe input{
+    padding: 1rem;
+    border-radius: 0.5rem;
+    width: 16rem;
+}
+.subscribe button{
+    padding: 1rem 2rem;
+    font-weight: 700;
+    color: white;
+    background: hsl(322, 100%, 66%);
+    border-radius: 0.5rem;
+    width: 10rem;
+    margin-left: 1.2rem;
+    display: flex;
+    justify-content: center;
+}
